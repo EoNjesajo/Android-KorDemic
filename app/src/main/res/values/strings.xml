@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">코데믹</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name = "source">
+        <item>보건복지부 코로나19 정보 기반</item>
+        <item>인천광역시청 코로나19 정보 기반</item>
+        <item>대전광역시청 코로나19 정보 기반</item>
+        <item>세종특별자치시청 코로나19 정보 기반</item>
+        <item>대구광역시청 코로나19 정보 기반</item>
+        <item>울산광역시청 코로나19 정보 기반</item>
+        <item>부산광역시청 코로나19 정보 기반</item>
+        <item>광주광역시청 코로나19 정보 기반</item>
+    </string-array>
+
+    <string-array name = "location">
+        <item>서울</item>
+        <item>인천</item>
+        <item>대전</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "URl1">
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=12&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>https://www.incheon.go.kr/covid19/index</item>
+        <item>https://corona.daejeon.go.kr/index.do?menuId=0008</item>
+        <item>https://www.sejong.go.kr/bbs/R3621/list.do</item>
+        <item>http://covid19.daegu.go.kr/00937400.html</item>
+        <item>https://covid19.ulsan.go.kr/index.do</item>
+        <item>https://www.busan.go.kr/covid19/Corona19.do</item>
+        <item>https://www.gwangju.go.kr/c19/contentsView.do?pageId=corona30</item>
+    </string-array>
+    <string-array name = "list_size">
+        <item>div [class=data_table midd] table tbody</item>
+        <item>div [id=tab2] table[class=table-list]</item>
+        <item>table[class=corona]</item>
+        <item>div[class=no-more-tables] table tbody</item>
+        <item>div [class=icss] table td tbody</item>
+        <item>body div:nth-child(2) table[class=patients] tbody</item>
+        <item>div[class=cleanzone_list] tbody</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "unit">
+        <item>tr</item>
+        <item>tr</item>
+        <item>tr</item>
+        <item>tr</item>
+        <item>tr</item>
+        <item>tr</item>
+        <item>tr</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "district">
+        <item>tr td:nth-child(2)</item>
+        <item>tr td:nth-child(2)</item>
+        <item>tr td:nth-child(1) p</item>
+        <item>세종</item>
+        <item>tr td:nth-child(2) p</item>
+        <item>tr td:nth-child(2)</item>
+        <item>tr td:nth-child(2)</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "facility">
+        <item>tr td:nth-child(3)</item>
+        <item>tr td:nth-child(3)</item>
+        <item>tr td:nth-child(2) p</item>
+        <item>tr td:nth-child(2)</item>
+        <item>tr td:nth-child(3) p</item>
+        <item>tr td:nth-child(3)</item>
+        <item>tr td:nth-child(3)</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "brand">
+        <item>tr td:nth-child(4)</item>
+        <item>tr td:nth-child(4)</item>
+        <item>tr td:nth-child(3) p</item>
+        <item>tr td:nth-child(3)</item>
+        <item>tr td:nth-child(4) p</item>
+        <item>tr td:nth-child(4)</item>
+        <item>tr td:nth-child(4)</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "address">
+        <item>서울</item>
+        <item>tr td:nth-child(5)</item>
+        <item>tr td:nth-child(4) p</item>
+        <item>tr td:nth-child(4)</item>
+        <item>tr td:nth-child(5) p</item>
+        <item>tr td:nth-child(5)</item>
+        <item>tr td:nth-child(5)</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "visitTime">
+        <item>tr td:nth-child(5)</item>
+        <item>tr td:nth-child(6) </item>
+        <item>tr td:nth-child(5)  p:nth-child(1)</item>
+        <item>tr td:nth-child(5)</item>
+        <item>tr td:nth-child(6) p</item>
+        <item>tr td:nth-child(6)</item>
+        <item>tr td:nth-child(6) p:nth-child(1)</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "visitTime2">
+        <item>서울</item>
+        <item>인천</item>
+        <item>tr td:nth-child(5)  p</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "disinfection">
+        <item>tr td:nth-child(6)</item>
+        <item>tr td:nth-child(7) </item>
+        <item>tr td:nth-child(6)  p</item>
+        <item>tr td:nth-child(6)</item>
+        <item>tr td:nth-child(7) p</item>
+        <item>tr td:nth-child(7)</item>
+        <item>tr td:nth-child(7)</item>
+        <item>광주</item>
+    </string-array>
+
+
+    <string-array name = "URl2">
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+        <item>http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=13&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=</item>
+    </string-array>
+    <string-array name = "korea_total">
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(1) td:nth-child(5)</item>
+    </string-array>
+    <string-array name = "basetime">
+        <item>div [class=timetable] p span</item>
+        <item>div [class=timetable] p span</item>
+        <item>div [class=timetable] p span</item>
+        <item>div [class=timetable] p span</item>
+        <item>div [class=timetable] p span</item>
+        <item>div [class=timetable] p span</item>
+        <item>div [class=timetable] p span</item>
+        <item>div [class=timetable] p span</item>
+    </string-array>
+    <string-array name = "total">
+        <item>div [class=data_table midd mgt24] tr:nth-child(2) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(5) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(7) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(9) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(4) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(8) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(3) td:nth-child(5)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(6) td:nth-child(5)</item>
+    </string-array>
+    <string-array name = "release">
+        <item>div [class=data_table midd mgt24] tr:nth-child(2) td:nth-child(7)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(5) td:nth-child(7)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(7) td:nth-child(7)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(9) td:nth-child(7)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(4) td:nth-child(7)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(8) td:nth-child(7)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(3) td:nth-child(7)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(6) td:nth-child(7)</item>
+    </string-array>
+    <string-array name = "isolate">
+        <item>div [class=data_table midd mgt24] tr:nth-child(2) td:nth-child(6)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(5) td:nth-child(6)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(7) td:nth-child(6)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(9) td:nth-child(6)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(4) td:nth-child(6)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(8) td:nth-child(6)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(3) td:nth-child(6)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(6) td:nth-child(6)</item>
+    </string-array>
+    <string-array name = "rip">
+        <item>div [class=data_table midd mgt24] tr:nth-child(2) td:nth-child(8)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(5) td:nth-child(8)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(7) td:nth-child(8)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(9) td:nth-child(8)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(4) td:nth-child(8)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(8) td:nth-child(8)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(3) td:nth-child(8)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(6) td:nth-child(8)</item>
+    </string-array>
+    <string-array name = "total_before">
+        <item>div [class=data_table midd mgt24] tr:nth-child(2) td:nth-child(2)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(5) td:nth-child(2)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(7) td:nth-child(2)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(9) td:nth-child(2)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(4) td:nth-child(2)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(8) td:nth-child(2)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(3) td:nth-child(2)</item>
+        <item>div [class=data_table midd mgt24] tr:nth-child(6) td:nth-child(2)</item>
+    </string-array>
+</resources>
